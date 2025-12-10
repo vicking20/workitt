@@ -1,0 +1,11 @@
+Flask
+Flask-Login
+Flask-Cors
+cryptography
+flask-sqlalchemy
+bcrypt
+openai
+pyyaml
+marshmallow
+pdfplumber
+flask-session

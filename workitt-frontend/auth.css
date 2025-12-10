@@ -1,0 +1,54 @@
+/* Auth Pages Specific Styles */
+
+/* Force dark text on auth pages */
+.auth-page {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+}
+
+.auth-page h1,
+.auth-page h2,
+.auth-page h3,
+.auth-page label {
+    color: #0f172a !important;
+}
+
+.auth-page p {
+    color: #475569 !important;
+}
+
+.auth-page input {
+    color: #0f172a !important;
+    border: 2px solid rgba(15, 23, 42, 0.1) !important;
+}
+
+.auth-page input:focus {
+    border-color: #e86f3e !important;
+    outline: none !important;
+}
+
+.auth-page input::placeholder {
+    color: #94a3b8 !important;
+}
+
+.auth-page button[type="submit"] {
+    background-color: #0f172a !important;
+    color: #ffffff !important;
+}
+
+.auth-page button[type="submit"]:hover {
+    background-color: #e86f3e !important;
+}
+
+.auth-page a {
+    color: #0f172a !important;
+}
+
+.auth-page a:hover {
+    color: #e86f3e !important;
+}
+
+.auth-divider-text {
+    color: #64748b !important;
+    font-weight: 600 !important;
+}
