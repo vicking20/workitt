@@ -1,6 +1,10 @@
 # Workitt - AI-Powered Career Advancement Platform
 
-Workitt is a modern, brutalist-style web application designed to help users advance their careers using AI. It provides tools to generate and manage resumes, cover letters, and track job applications, all enhanced by AI capabilities.
+Workitt is a modern tool designed to help users advance their careers using AI. It provides tools to generate and manage resumes, cover letters, and track job applications, all enhanced by AI capabilities.
+
+Access to the demonstration version of the project is available at:
+[https://workitt.zekfat.xyz](https://workitt.zekfat.xyz)
+(Registration is currently closed.)
 
 ## 🚀 Features
 
@@ -54,7 +58,10 @@ Navigate to the backend directory and set up the Python environment.
 ```bash
 cd workitt-backend
 python3 install.py
-Follow the menu to configure your setup, and finally, start_workitt, it will start frontend abc backend server and you should be able to access frontend from localhost:3000 in dev mode.
+Follow the menu to configure your setup, setup encryption key, configure ai api keys, setup database, load test users to database.
+Go to workitt-backend -> python3 app.py
+Go to workitt-frontend -> npm run dev (-- --host flag to expose to local network)
+Access frontend from localhost:3000
 ```
 The backend API will run on `http://localhost:5000`.
 
@@ -63,9 +70,6 @@ The backend API will run on `http://localhost:5000`.
 ### Environment Variables
 -   **Frontend**: Create `.env` if needed for custom API URLs (`VITE_API_URL`). Defaults to proxying to localhost:5000.
 -   **Backend**: Configuration is stored securely in `workitt-backend/data/config.json`. Use `install.py` or modify the file manually (encrypted values require the master key).
-
-### Tailwind Theme
-The project uses a custom Tailwind configuration (`tailwind.config.js`) defining specific brand colors like `brand-accent` (Terracotta), `brand-gold`, and `primary` (Deep Space Blue).
 
 ## 🤝 Usage
 
@@ -76,5 +80,4 @@ The project uses a custom Tailwind configuration (`tailwind.config.js`) defining
 5.  **Print/Export**: Purely formatted documents as PDF.
 
 ## 📄 License
-
-This project is licensed under the MIT License.
+All rights reserved.
